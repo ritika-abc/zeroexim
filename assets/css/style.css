@@ -763,13 +763,15 @@ line-height: 20px !important;
   transition: all 0.3s ease-in;
 }
 .owl-carousel .owl-nav button:hover {
-  background: var(--main-color);
+  background: #000000;
 }
 .owl-carousel .owl-nav button:hover img {
   -webkit-filter: brightness(99);
           filter: brightness(99);
 }
-
+.owl-prev:hover>img,.owl-next:hover>img{
+  filter: invert(1) !important;
+}
 /*-----------------------------------------
     ## Preloader Css
 -------------------------------------------*/
